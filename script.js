@@ -2,6 +2,7 @@
 // the code isn't run until the browser has finished rendering all the elements
 // in the html.
 $(function () {
+var timeBlockCode = ""
 
     <div id="hour-9" class="row time-block past">
     <div class="col-2 col-md-1 hour text-center py-3">9AM</div>
@@ -10,7 +11,7 @@ $(function () {
       <i class="fas fa-save" aria-hidden="true"></i>
     </button>
   </div>
-  
+
     // TODO: Add a listener for click events on the save button. This code should
     // use the id in the containing time-block as a key to save the user input in
     // local storage. HINT: What does `this` reference in the click listener
