@@ -37,6 +37,10 @@ $(function () {
     //Current Time
     var currenttime = dayjs().hour() 
 
+    for (let i = 9; i < 18; i++) {
+        var timeBlockKey = "hour-" + i
+    }
+
 
     // TODO: Add a listener for click events on the save button. This code should
     // use the id in the containing time-block as a key to save the user input in
