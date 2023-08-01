@@ -16,6 +16,7 @@ $(function () {
         } else {
             var hourdisplay = (i-12) + "PM"
         }
+    //Use HTML code, combine all time blocks, past, present, future to timeblocks
         timeBlockCode += `<div id="hour-${i}" class="row time-block">
         <div class="col-2 col-md-1 hour text-center py-3">${hourdisplay}</div>
         <textarea class="col-8 col-md-10 description" rows="3">${storedentry} </textarea>
@@ -24,11 +25,14 @@ $(function () {
         </button>
       </div>`
     }
+
+    //Adding events to hourly planner, save events to planner
     $("#timeblocks").html(timeBlockCode)
     $("#timeblocks").on("click", ".saveBtn", function () {
     var planner = $(this).siblings(".description").val()
     var hour = $(this).parent().attr("id")
 
+    //Save Button Test
     console.log("saveBtn", planner, hour)
     localStorage.setItem(hour, planner)
     })
