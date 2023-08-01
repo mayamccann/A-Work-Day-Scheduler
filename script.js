@@ -47,6 +47,7 @@ $(function () {
         }else {
         $("#"+ timeBlockKey).addClass("past")
         }
+        
         }
     
         //research format for date
