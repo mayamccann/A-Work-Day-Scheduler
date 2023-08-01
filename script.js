@@ -6,6 +6,9 @@ $(function () {
 //Add for loop
 //Add if statements
 var timeBlockCode = ""
+for (let i = 9; i < 18; i++) {
+
+}
 
     <div id="hour-9" class="row time-block past">
     <div class="col-2 col-md-1 hour text-center py-3">9AM</div>
