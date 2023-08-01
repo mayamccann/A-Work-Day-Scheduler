@@ -2,28 +2,28 @@
 // the code isn't run until the browser has finished rendering all the elements
 // in the html.
 $(function () {
-//Add variable for time
-//Add for loop
-//Add if statements
-var timeBlockCode = ""
-for (let i = 9; i < 18; i++) {
-var timeBlockKey = "hour-" + i
-var storedentry = localStorage.getItem(timeBlockKey) || ""
-if (i < 12) {
-    var hour_display = i + "AM"
-} else if(i === 12){
-    var hour_display = i + "PM"
-}else{
-    var hour_display = (i-12) + "PM"
-}
-timeBlockCode + = '<div id="hour-${i}" class="row time-block">
-<div class="col-2 col-md-1 hour text-center py-3">${hour_display}</div>
-<textarea class="col-8 col-md-10 description" rows="3"> ${storedentry}</textarea>
-<button class="btn saveBtn col-2 col-md-1" aria-label="save">
-  <i class="fas fa-save" aria-hidden="true"></i>
-</button>
-</div>'
-}
+    //Add variable for time
+    //Add for loop
+    //Add if statements
+    var timeBlockCode = ""
+    for (let i = 9; i < 18; i++) {
+        var timeBlockKey = "hour-" + i
+        var storedentry = localStorage.getItem(timeBlockKey) || ""
+        if (i < 12) {
+            var hour_display = i + "AM"
+        } else if (i === 12) {
+            var hour_display = i + "PM"
+        } else {
+            var hour_display = (i - 12) + "PM"
+        }
+        timeBlockCode += `<div id="hour-${i}" class="row time-block">
+        <div class="col-2 col-md-1 hour text-center py-3">${hour_display}</div>
+        <textarea class="col-8 col-md-10 description" rows="3">${storedentry} </textarea>
+        <button class="btn saveBtn col-2 col-md-1" aria-label="save">
+          <i class="fas fa-save" aria-hidden="true"></i>
+        </button>
+      </div>`
+    }
 
 
     // TODO: Add a listener for click events on the save button. This code should
@@ -44,5 +44,4 @@ timeBlockCode + = '<div id="hour-${i}" class="row time-block">
     // attribute of each time-block be used to do this?
     //
     // TODO: Add code to display the current date in the header of the page.
-  });
-  
+});
