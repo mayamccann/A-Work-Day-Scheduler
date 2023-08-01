@@ -29,6 +29,22 @@ The user is able plan out their work day by saving events by the hour! Don't for
 ![Work Day Scheduler C](https://github.com/mayamccann/A-Work-Day-Scheduler/assets/112992245/b052605d-6ebc-4919-b655-617582eb8bdd)
 
 
+## 💡 Hints
+This assignment forces you to utilize your JavaScript, jQuery and Third-Party APIs skills to create an improved application! Focus on the interactivity of this webpage.
+
+Make sure this work day scheduler can be utilized for all users! The key is to focus on the functionality of the events being saved.
+
+## 🏆 Bonus
+Once the activity is completed, dive deeper into :
+
+- Options of color schemes for the past, present and future time blocks
+- Creating an options for the layout of the scheduler
+- Ability of alert reminders for the user 
+- Replacing the Save Button to a be more polished and professional
+- Format the layout of the work day scheduler
+- Addition of a calendar widget feature
+- Save a document of the work day schedule to email
+
 
 ## 💡Credits
 Code Source : Credits are devoted to the UConn Coding Boot Camp Support Staff (Instructional Staff, TA, Tutors) and the program's activities and challenges materials and BootCamp Spot/Canvas and additional resources given throughout the course and outside research utilizing the Google Chrome browser of information relating to examples of HTML, CSS, JavaScript, Third-Party APIs and jQuery as well as further information utiliized when building this code received from BootCamp Spot/Canvas. For this challenge, the assistance of a Tutor aided in the completion of this web application. Credits are reserved for resources besides my knowledge and skills to assist in completing this module challenge. Each assignment, material is constantly learned when managing the assignments. 
