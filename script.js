@@ -7,7 +7,8 @@ $(function () {
 //Add if statements
 var timeBlockCode = ""
 for (let i = 9; i < 18; i++) {
-
+var timeBlockKey = "hour-" + i
+var storedentry = localStorage.getItem(timeBlockKey) || ""
 }
 
     <div id="hour-9" class="row time-block past">
