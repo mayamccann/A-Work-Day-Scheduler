@@ -26,8 +26,9 @@ $(function () {
     }
     $("#timeblocks").html(timeBlockCode)
     $("#timeblocks").on("click", ".saveBtn", function () {
-    
-    }
+    var planner = $(this).siblings(".description").val()
+
+    })
 
     // TODO: Add a listener for click events on the save button. This code should
     // use the id in the containing time-block as a key to save the user input in
