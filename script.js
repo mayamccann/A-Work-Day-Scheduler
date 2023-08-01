@@ -30,8 +30,7 @@ $(function () {
     var hour = $(this).parent().attr("id")
 
     console.log("saveBtn", planner, hour)
-    localStorage.setItem(planner, hour)
-
+    localStorage.setItem(hour, planner)
     })
 
     //Current Time
@@ -52,6 +51,7 @@ $(function () {
     
         //research format for date
         $("#currentday").text(dayjs().format("MM/DD/YYYY"))
+     
 
     // TODO: Add a listener for click events on the save button. This code should
     // use the id in the containing time-block as a key to save the user input in
