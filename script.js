@@ -9,6 +9,15 @@ var timeBlockCode = ""
 for (let i = 9; i < 18; i++) {
 var timeBlockKey = "hour-" + i
 var storedentry = localStorage.getItem(timeBlockKey) || ""
+if (i < 12) {
+    var hour_display = i + "AM"
+} else if(i === 12){
+    var hour_display = i + "PM"
+}else{
+    var hour_display = (i-12) + "PM"
+}
+}
+}
 }
 
     <div id="hour-9" class="row time-block past">
