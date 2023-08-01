@@ -40,6 +40,7 @@ $(function () {
     for (let i = 9; i < 18; i++) {
         var timeBlockKey = "hour-" + i
         if (currenttime < i) {
+        //future, present, past = same
         $("#" + timeBlockKey).addClass("future")
         }else if (currenttime === i) {
         $("#" + timeBlockKey).addClass("present")
@@ -47,9 +48,9 @@ $(function () {
         $("#"+ timeBlockKey).addClass("past")
         }
         }
-        }
-    }
-
+    
+        //research format for date
+        $("#currentday").text(dayjs().format("MM/DD/YYYY"))
 
     // TODO: Add a listener for click events on the save button. This code should
     // use the id in the containing time-block as a key to save the user input in
