@@ -14,7 +14,7 @@ $(function () {
         } else if (i === 12) {
             var hourdisplay = i + "PM"
         } else {
-            var hourdisplay = (i - 12) + "PM"
+            var hourdisplay = (i-12) + "PM"
         }
         timeBlockCode += `<div id="hour-${i}" class="row time-block">
         <div class="col-2 col-md-1 hour text-center py-3">${hourdisplay}</div>
@@ -47,7 +47,7 @@ $(function () {
         }else {
         $("#"+ timeBlockKey).addClass("past")
         }
-        
+
         }
     
         //research format for date
