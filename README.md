@@ -12,6 +12,31 @@ For this assignment, the goal is to create a work day scheduler to display skill
 
 * The initial webpage introduces the user to the work day scheduler. The user will be able to record their plans by the hour by saving it to the scheduler. The work day scheduler will decipher the past, present and future by a color scheme of white, red and green. This work day scheduler will benefit users by organizing their work day efficiently and quick, easy access. 
 
+## 💡 User Story
+AS A Bootcamp student with backgorund knowledge with HTML, CSS, JavaScript, jQuery and Third-Party APIs 
+I WANT to build a webpage that showcases my a work day scheduler to benefit users' who desire for improved organization and planning for each work day
+SO THAT I can create a web application that offers Users exposure to learning and reviewing the knowledge I have obtained within the computer science field.
+
+## 💡 Acceptance Criteria
+GIVEN I need to build a webpage when given a starter code
+WHEN I begin with HTML and CSS files THEN I will begin by creating the JavaScript code
+WHEN I start the JS code referencing the HTML
+THEN I will add to the HTML code to create the function for the JavaScript
+THEN I will add variables to the function
+WHEN I finish completing the if statements for the timeblocks
+THEN I will create the function for the Save Button
+WHEN I have the variables created and the console.log and localStorage tested
+THEN I will have if statements for the timeblockkey for the past, present and future
+THEN I will add the function for the current day to appear when using the scheduler
+WHEN I will correctly link the HTML, CSS and JS files
+THEN I will confirm the validity of the code for my web application by opening the browser and testing the functionality and evaluating the appearance of the webpage 
+WHEN I confirm that the work day scheduler has the ability to present each hour with the save buttons and shows the current date and color scheme for the past, present and future hours
+WHEN I review the layout of the entire webpage 
+THEN I will know it is completed once I can add events and descriptions to each hour and save all to the scheduler, even when refreshing the webpage
+WHEN I view the webpage thoroughly and check if the webpage meets all requirments and all instructions are followed 
+THEN when the completed webpage has complete functionality, quality appearance and displays the correct professional information
+
+
 ## 💡Mock-Up
 The following image shows the web application's appearance and functionality: 
 
