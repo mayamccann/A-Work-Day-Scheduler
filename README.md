@@ -77,9 +77,9 @@ Code Source : Credits are devoted to the UConn Coding Boot Camp Support Staff (I
 ## 💡Review 
 
 Deployed URL :
+https://mayamccann.github.io/A-Work-Day-Scheduler/
 
-
-GitHub URL :
+GitHub URL : 
 https://github.com/mayamccann/A-Work-Day-Scheduler
 
 🏆 Module 5 Challenge from the UConn Coding Bootcamp Cohort May 2023 🏆
