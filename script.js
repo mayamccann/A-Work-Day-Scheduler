@@ -39,6 +39,15 @@ $(function () {
 
     for (let i = 9; i < 18; i++) {
         var timeBlockKey = "hour-" + i
+        if (currenttime < i) {
+        $("#" + timeBlockKey).addClass("future")
+        }else if (currenttime === i) {
+        $("#" + timeBlockKey).addClass("present")
+        }else {
+        $("#"+ timeBlockKey).addClass("past")
+        }
+        }
+        }
     }
 
 
