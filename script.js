@@ -2,6 +2,9 @@
 // the code isn't run until the browser has finished rendering all the elements
 // in the html.
 $(function () {
+//Add variable for time
+//Add for loop
+//Add if statements
 var timeBlockCode = ""
 
     <div id="hour-9" class="row time-block past">
