@@ -28,6 +28,7 @@ $(function () {
     $("#timeblocks").on("click", ".saveBtn", function () {
     var planner = $(this).siblings(".description").val()
     var hour = $(this).parent().attr("id")
+    console.log("saveBtn", planner, hour)
 
     })
 
